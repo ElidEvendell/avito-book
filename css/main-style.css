@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.selled {
+    display: none;
+}
+
+.header {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFE0B2;
+    gap: 10px;
+}
+
+.important-info {
+    text-align: center;
+}
+
+.important-info p {
+    padding: 0.1em;
+    font-size: 1.4em;
+    color: #7E57C2;
+    line-break: auto;
+    font-family: 'Montserrat';
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo pre {
+    padding: 0.1em;
+    font-size: 1.3em;
+    color: #7E57C2;
+    font-family: 'Montserrat';
+}
+
+.logo img {
+    height: 7vh;
+}
+
+.link-to-ad a {
+    text-decoration: underline;
+    padding: 4px;
+    font-size: 1.3em;
+    font-family: 'Montserrat';
+    color: #7E57C2;
+    line-break: auto;
+
+}
+
+.footer {
+    background-color: #FFE0B2;
+    width: 100%;
+    height: 50px;
+    padding: 0.1em;
+    font-size: 1.3em;
+    color: #7E57C2;
+    font-family: 'Montserrat';
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+@media (max-width: 720px){
+    .important-info p {
+        display: none;
+}
+
+
+}
